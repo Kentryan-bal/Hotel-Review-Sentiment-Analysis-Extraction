@@ -99,9 +99,8 @@ Uses **VADER** (Valence Aware Dictionary and sEntiment Reasoner) to classify the
 git clone https://github.com/username/hotel-review-sentiment-analyzer.git
 cd hotel-review-sentiment-analyzer
 
-pip install pandas nltk textblob scikit-learn
+pip install -r requirements.txt
 
-python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('vader_lexicon')"
 ```
 
 ### Run the Analysis
